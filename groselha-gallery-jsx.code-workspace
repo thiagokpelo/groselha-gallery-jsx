@@ -1,0 +1,53 @@
+{
+  "folders": [
+    {
+      "name": "Source",
+      "path": "./src"
+    },
+    {
+      "name": "Build",
+      "path": "./build"
+    },
+    {
+      "name": "Root",
+      "path": "."
+    },
+  ],
+  "settings": {
+    "editor.rulers": [
+      80,
+      100
+    ],
+    "eslint.autoFixOnSave": true,
+    "eslint.lintTask.options": "-c .eslintrc.js --ignore-path .eslintignore .",
+    "prettier.configPath": ".prettierrc.js",
+    "eslint.alwaysShowStatus": true,
+    "eslint.packageManager": "yarn",
+    "editor.formatOnSave": true,
+    "prettier.bracketSpacing": false,
+    "prettier.semi": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      }
+    },
+    "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      }
+    },
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      }
+    },
+    "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      }
+    }
+  },
+}
